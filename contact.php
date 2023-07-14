@@ -1,5 +1,5 @@
-<!DOCTYPE HTML>
-<html>
+<?php
+?>
 	<head>
 		<title>Nomglide | Parachute Gliding</title>
 		<meta charset="utf-8" />
@@ -14,7 +14,7 @@
 					<header id="header">
 						<div class="inner">
 
-								<a href="index.html" class="logo">
+								<a href="index.php" class="logo">
 									<span class="fa fa-paper-plane"></span> <span class="title">Nomglide</span>
 								</a>
 
@@ -26,52 +26,39 @@
 
 						</div>
 					</header>
-
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 
-							<li><a href="packages.html">Packages</a></li>
+							<li><a href="packages.php">Packages</a></li>
 
-							<li><a href="blog.html" class="active">Blog</a></li>
+							<li><a href="blog.php">Blog</a></li>
 
 							<li>
 								<a href="#" class="dropdown-toggle">About</a>
 
 								<ul>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="testimonials.html">Testimonials</a></li>
+									<li><a href="about.php">About Us</a></li>
+									<li><a href="testimonials.php">Testimonials</a></li>
 								</ul>
 							</li>
-							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="contact.php" class="active">Contact Us</a></li>
 						</ul>
 					</nav>
 
 					<div id="main">
 						<div class="inner">
-							<h1>HOW PARAGLIDING AND SKYDIVING CAN BOOST YOUR HEALTH AND HAPPINESS</h1>
-
-							<div class="image main">
-								<img src="images/blog-fullscreen-3.png" class="img-fluid" alt="" />
-							</div>
-
-							<p>Paragliding and skydiving not only provide exhilarating experiences but can also have a positive impact on your health and happiness. These activities offer unique opportunities to engage in physical exercise and outdoor exploration, which can contribute to improved overall well-being.</p>
-
-							<p>The adrenaline rush and sense of accomplishment that come with conquering the skies can boost your mood and enhance feelings of happiness and fulfillment. Additionally, the breathtaking views and the freedom of soaring through the air can create a sense of awe and wonder, fostering a deeper appreciation for the beauty of nature.</p>
-							
-							<p>The adrenaline and excitement released during these activities can also help reduce stress levels and promote a sense of mental clarity and relaxation. Engaging in paragliding and skydiving can provide a thrilling escape from the routine of daily life, enabling you to break free from constraints and experience a sense of freedom and liberation.</p>
-
-							<p>Ultimately, by incorporating these adventurous pursuits into your life, you can enhance both your physical health and emotional well-being, leading to a happier and more fulfilling lifestyle.</p>
+							<h1>Contact Us</h1>
+							<span class="image main"><img src="images/map.png" alt="" /></span>
+							<p>If you have any questions, inquiries, or would like to book your paragliding adventure, our team is here to assist you. Feel free to reach out to us via phone at +90 532 532 32 32 or send us an email at 215060013@toros.edu.tr . We value your interest and are committed to providing you with the information and support you need to make your paragliding experience unforgettable. Don't hesitate to contact us; we're excited to hear from you and help you take to the skies!</p>
 						</div>
 					</div>
 
-				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
 							<section>
-								<h2>Leave a comment</h2>
-								
+								<h2>Contact Us</h2>
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
@@ -83,26 +70,38 @@
 										</div>
 
 										<div class="field">
-											<textarea name="message" id="message" rows="3" placeholder="Your message"></textarea>
+											<input type="text" name="subject" id="subject" placeholder="Subject" />
+										</div>
+
+										<div class="field">
+											<textarea name="message" id="message" rows="3" placeholder="Notes"></textarea>
 										</div>
 
 										<div class="field text-right">
 											<label>&nbsp;</label>
 
 											<ul class="actions">
-												<li><input type="submit" value="Submit" class="primary" /></li>
+												<li><input type="submit" value="Send Message" class="primary" /></li>
 											</ul>
 										</div>
 									</div>
 								</form>
 							</section>
 							<section>
+								<h2>Contact Info</h2>
 
-								<h2>Share This</h2>
+								<ul class="alt">
+									<li><span class="fa fa-envelope-o"></span> <a href="#">nomracerr@gmail.com</a></li>
+									<li><span class="fa fa-phone"></span> +90 532 325 22 22 </li>
+									<li><span class="fa fa-map-pin"></span> Muğla/Göcek</li>
+								</ul>
+
+								<h2>Follow Us</h2>
 
 								<ul class="icons">
 									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
 								</ul>
 							</section>
@@ -122,4 +121,3 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
-</html>

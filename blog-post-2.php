@@ -1,5 +1,5 @@
-<!DOCTYPE HTML>
-<html>
+<?php
+?>
 	<head>
 		<title>Nomglide | Parachute Gliding</title>
 		<meta charset="utf-8" />
@@ -14,7 +14,7 @@
 					<header id="header">
 						<div class="inner">
 
-								<a href="index.html" class="logo">
+								<a href="index.php" class="logo">
 									<span class="fa fa-paper-plane"></span> <span class="title">Nomglide</span>
 								</a>
 
@@ -30,39 +30,39 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 
-							<li><a href="packages.html">Packages</a></li>
+							<li><a href="packages.php">Packages</a></li>
 
-							<li><a href="blog.html" class="active">Blog</a></li>
+							<li><a href="blog.php" class="active">Blog</a></li>
 
 							<li>
 								<a href="#" class="dropdown-toggle">About</a>
 
 								<ul>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="testimonials.html">Testimonials</a></li>
+									<li><a href="about.php">About Us</a></li>
+									<li><a href="testimonials.php">Testimonials</a></li>
 								</ul>
 							</li>
-							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="contact.php">Contact Us</a></li>
 						</ul>
 					</nav>
 
 					<div id="main">
 						<div class="inner">
-							<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+							<h1>HOW PARAGLIDING AND SKYDIVING CAN BOOST YOUR HEALTH AND HAPPINESS</h1>
 
 							<div class="image main">
-								<img src="images/blog-fullscreen-2.jpg" class="img-fluid" alt="" />
+								<img src="images/blog-fullscreen-3.png" class="img-fluid" alt="" />
 							</div>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium maxime enim rem laborum provident culpa, nemo illo voluptatem vero similique, sapiente dolorum tempore, eos facere laboriosam excepturi nisi facilis nulla!</p>
+							<p>Paragliding and skydiving not only provide exhilarating experiences but can also have a positive impact on your health and happiness. These activities offer unique opportunities to engage in physical exercise and outdoor exploration, which can contribute to improved overall well-being.</p>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nostrum ad rerum odio expedita unde facilis, harum praesentium quibusdam veniam officiis totam, iusto esse cupiditate fugiat illo a dicta quod. Voluptatibus nam sapiente repellat accusamus ex quam eligendi inventore nemo.</p>
+							<p>The adrenaline rush and sense of accomplishment that come with conquering the skies can boost your mood and enhance feelings of happiness and fulfillment. Additionally, the breathtaking views and the freedom of soaring through the air can create a sense of awe and wonder, fostering a deeper appreciation for the beauty of nature.</p>
 							
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ducimus numquam, ad reprehenderit quisquam nobis suscipit reiciendis consequuntur officia earum, assumenda illo maiores! Voluptates harum blanditiis non amet ex dignissimos expedita quis provident dolore voluptatum laudantium quam in nemo voluptatibus, fugit facilis voluptate, commodi quisquam corporis sed possimus. Sit, voluptate?</p>
+							<p>The adrenaline and excitement released during these activities can also help reduce stress levels and promote a sense of mental clarity and relaxation. Engaging in paragliding and skydiving can provide a thrilling escape from the routine of daily life, enabling you to break free from constraints and experience a sense of freedom and liberation.</p>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam mollitia, obcaecati aperiam temporibus dicta voluptates, incidunt quibusdam eos a debitis molestias dolores quas. Culpa itaque dignissimos, nulla sequi velit repellat?</p>
+							<p>Ultimately, by incorporating these adventurous pursuits into your life, you can enhance both your physical health and emotional well-being, leading to a happier and more fulfilling lifestyle.</p>
 						</div>
 					</div>
 
@@ -122,4 +122,3 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
-</html>
